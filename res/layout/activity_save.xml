@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context="com.chongyou.main.SaveActivity" >
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+    	<Button android:id="@+id/but01"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/item2" 
+    		android:text="存储到数据库"
+    		android:layout_weight="1" />
+    	
+    	<Button android:id="@+id/but02"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/item2" 
+    		android:text="显示已存数据"
+    		android:layout_weight="1"/>
+    	
+    	<Button android:id="@+id/but03"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/item2" 
+    		android:text="删除所有数据"
+    		android:layout_weight="1" />
+    	
+    </LinearLayout>
+    
+    <ListView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/lv_save"
+	    android:divider="@null"
+    ></ListView> 
+
+</LinearLayout>

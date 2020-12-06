@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">无线wifi室内定位系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wifi_info_list">WifiInfoListActivity</string>
+    <string name="title_activity_positioning">PositioningActivity</string>
+    <string name="wifi">TODO</string>
+    <string name="positioning">dingwei</string>
+    <string name="title_activity_save">SaveActivity</string>
+
+</resources>

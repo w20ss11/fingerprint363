@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.chongyou.main.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/haha1"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back1" >
+
+        <TextView
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="wifi采集器" 
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/haha2"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back2" >
+
+        <TextView
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="定位系统" 
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
